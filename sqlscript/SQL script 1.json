@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "CREATE TABLE CUSTOMERS10( \nID INT NOT NULL, \nNAME VARCHAR (20) NOT NULL, \nAGE INT NOT NULL, \nADDRESS CHAR (25) , \nSALARY DECIMAL (18, 2), \nPRIMARY KEY (ID) );",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
