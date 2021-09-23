@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_0ej",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1Destination1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "destinationblob2"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
