@@ -8,7 +8,13 @@
 		"AzureBlobStorage1Destination_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage1Destination1_connectionString": {
+			"value": ""
+		},
 		"AzureBlobStorage1Source_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1Sourcenew_connectionString": {
 			"value": ""
 		},
 		"AzureBlobStorage1SynapseDemo_connectionString": {
