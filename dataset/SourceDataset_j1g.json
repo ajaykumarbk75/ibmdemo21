@@ -1,0 +1,40 @@
+{
+	"name": "SourceDataset_j1g",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1Sourcenew",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "TaxiZones2.csv",
+				"container": "sourceblob123"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "LocationID",
+				"type": "String"
+			},
+			{
+				"name": "Borough",
+				"type": "String"
+			},
+			{
+				"name": "Zone",
+				"type": "String"
+			},
+			{
+				"name": "service_zone",
+				"type": "String"
+			}
+		]
+	}
+}
