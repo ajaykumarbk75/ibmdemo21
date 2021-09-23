@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_662",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1SynapseDemo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "sourceblob123"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
