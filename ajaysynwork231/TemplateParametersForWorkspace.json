@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "ajaysynwork231"
+		},
+		"AzureBlobStorage1Destination_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1Source_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1SynapseDemo_connectionString": {
+			"value": ""
+		},
+		"ajaysynwork231-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"ajaysynwork231-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://ajayadlk2.dfs.core.windows.net"
+		}
+	}
+}
